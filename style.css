@@ -1,0 +1,81 @@
+body {
+    background-color:#f2f2f2;
+}
+.intro {  border: 5px solid skyblue;    
+   width: 90%;
+   height: 90px;color:white;background-color:skyblue; } 
+   
+   .text { 
+   padding: 10px;    
+   border: 5px solid gray;font-family:arial;
+   
+ }
+ 
+.css { border-style: dashed; padding: 10px; border-width: 5px ;
+    
+}
+   
+.five { 
+    width:90px;
+    height:50px;
+    background-color:#ffa500;
+    color:#f2f2f2;
+    font-family:arial;
+    font-size:35px;
+    transition:width 1s;
+    transition-timing-function: cubic-bezier(0,0,1);
+    -webkit-transition: width 1s;
+    -webkit-transition-timing-function: cubic-bezier(0,0,1);
+}
+.five:hover {
+    width: 200px;
+}
+
+.three {
+    width:70px;
+    height:50px;
+    background-color:#00ffff;
+    color:#f2f2f2;
+    font-family:arial;
+    font-size:35px;
+    transition:width 1s;
+    transition-timing-function: cubic-bezier(0,0,1);
+    -webkit-transition: width 1s;
+    -webkit-transition-timing-function: cubic-bezier(0,0,1);
+    
+}
+
+.three:hover {
+    width: 200px;
+}
+
+.circle {
+    width: 70px;
+   height: 70px;
+   border-radius: 100px;
+   background-color: green;
+   color: white;
+   position: absolute;
+   background-color: #ffa500;
+   transform:translate(3px);
+   font-size:50px;
+   position:fixed  ;
+   bottom:5px;
+   left:5px;
+   
+}
+
+.c2 {
+    width: 70px;
+   height: 70px;
+   border-radius: 100px;
+   background-color: green;
+   color: white;
+   position:fixed  ;
+   bottom:5px;
+   right :5px;
+   background-color: #00ffff;
+   transform:translate(7px);
+   font-size:50px;
+   
+}
